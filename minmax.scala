@@ -18,7 +18,7 @@ object minmax {
         var min = 999
         for(i <- numArr) {
             if(i > max) max = i
-            if(i < min) min = 1
+            if(i < min) min = i
         }
         (max, min)
     }
